@@ -1,0 +1,37 @@
+{
+  "name": "es6-sass-webpack-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server -d --hot --config webpack.config.js --watch",
+    "production": "NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/nicknameDE/es6-sass-webpack-boilerplate.git"
+  },
+  "author": "Nick <nickname.de@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.5.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "node-sass": "^4.5.2",
+    "optimize-css-assets-webpack-plugin": "^1.3.1",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.17.0",
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/nicknameDE/es6-sass-webpack-boilerplate/issues"
+  },
+  "homepage": "https://gitlab.com/nicknameDE/es6-sass-webpack-boilerplate#README",
+  "keywords": [],
+  "description": ""
+}

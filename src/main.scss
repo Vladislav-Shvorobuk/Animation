@@ -1,0 +1,85 @@
+$leftPos: 0px;
+
+@import "_reset.scss";
+@import "_keyframe.scss";
+
+body {
+    background-color: #8080802e;
+}
+
+.main_container {
+    position: relative;
+    width: 1300px;
+    height: 400px;
+    margin: auto;
+    margin-top: 150px;
+    border: 1px solid;
+    text-align: center;
+    background-color: grey;
+
+}
+.card {
+    width: 100px;
+    height: 150px;
+    background: #2e2e40;
+    display: inline-block;
+    z-index: 1;
+    margin: 10px;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    font-size: 1000%;
+    border: 3px solid white;
+    padding-bottom: 20px;
+  
+}
+.one {
+    left: $leftPos;
+    animation: move 8s linear forwards paused infinite;
+
+}
+.two {
+    width: 150px;
+    height: 225px;
+    left:  $leftPos + 120px;
+}
+.three {
+    width: 200px;
+    height: 300px;
+    left:  $leftPos + 290px;
+}
+.four {
+    width: 200px;
+    height: 300px;
+    left:  $leftPos + 500px;
+}
+.five {
+    width: 200px;
+    height: 300px;
+    left:  $leftPos + 710px;
+}
+.six {
+    width: 150px;
+    height: 225px;
+    left:  $leftPos + 920px;
+}
+.seven {
+    width: 100px;
+    height: 150px;
+    left:  $leftPos + 1090px;
+}
+
+.main_container:hover .one, .main_container:focus .one {
+    
+    animation-play-state: running;
+            
+}
+
+
+
+
+
+
+
+
+
