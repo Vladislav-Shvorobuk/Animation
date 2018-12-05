@@ -3,6 +3,7 @@ $leftPos: 0px;
 @import "_reset.scss";
 @import "_one_keyframe.scss";
 @import "_second_keyframe.scss";
+@import "_third_keyframe.scss";
 @import "_seven_keyframe.scss";
 
 body {
@@ -11,29 +12,27 @@ body {
 
 .main_container {
     position: relative;
-    width: 1300px;
+    width: 1250px;
     height: 500px;
     margin: auto;
     margin-top: 100px;
     border: 1px solid;
-    text-align: center;
     background-color: rgb(153, 153, 153);
-    text-align: center;
+
 
 }
 .card {
     width: 100px;
     height: 150px;
     background: #2e2e40;
-    display: inline-block;
-    z-index: 5;
-    margin: 10px;
+    margin: 20px;
+    color: white;
+    font-size: 85px;
     position: absolute;
     bottom: 0px;
-    color: white;
-    font-size: 900%;
     border: 3px solid white;
-    padding-bottom: 80px;
+    line-height: 100%;
+    text-align: center;
   
 }
 .first {
@@ -50,6 +49,7 @@ body {
     width: 200px;
     height: 300px;
     left:  $leftPos + 290px;
+    animation: moveThird 8s linear forwards paused infinite;
 }
 .fourth {
     width: 200px;
@@ -76,6 +76,10 @@ body {
     animation-play-state: running;          
 }
 .main_container:hover .second, .main_container:focus .second {
+    
+    animation-play-state: running;          
+}
+.main_container:hover .third, .main_container:focus .third {
     
     animation-play-state: running;          
 }
