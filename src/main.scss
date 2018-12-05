@@ -2,6 +2,7 @@ $leftPos: 0px;
 
 @import "_reset.scss";
 @import "_one_keyframe.scss";
+@import "_second_keyframe.scss";
 @import "_seven_keyframe.scss";
 
 body {
@@ -35,51 +36,54 @@ body {
     padding-bottom: 80px;
   
 }
-.one {
+.first {
     left: $leftPos;
-    animation: moveOne 8s linear forwards paused infinite;
+    animation: moveFirst 8s linear forwards paused infinite;
 }
-.two {
+.second {
     width: 150px;
     height: 225px;
     left:  $leftPos + 120px;
-    // animation: move 8s linear forwards paused infinite;
+    animation: moveSecond 8s linear forwards paused infinite;
 }
-.three {
+.third {
     width: 200px;
     height: 300px;
     left:  $leftPos + 290px;
 }
-.four {
+.fourth {
     width: 200px;
     height: 300px;
     left:  $leftPos + 500px;
 }
-.five {
+.fifth {
     width: 200px;
     height: 300px;
     left:  $leftPos + 710px;
 }
-.six {
+.sixth {
     width: 150px;
     height: 225px;
     left:  $leftPos + 920px;
 }
-.seven {
+.seventh {
     left:  $leftPos + 1090px;
     animation: moveSeven 8s linear forwards paused infinite;
 }
 
-.main_container:hover .one, .main_container:focus .one {
+.main_container:hover .first, .main_container:focus .first {
     
-    animation-play-state: running;
-            
+    animation-play-state: running;          
 }
-.main_container:hover .seven, .main_container:focus .seven {
+.main_container:hover .second, .main_container:focus .second {
     
-    animation-play-state: running;
-            
+    animation-play-state: running;          
 }
+.main_container:hover .seventh, .main_container:focus .seventh {
+    
+    animation-play-state: running;           
+}
+
 
 
 
