@@ -1,7 +1,8 @@
 $leftPos: 0px;
 
 @import "_reset.scss";
-@import "_keyframe.scss";
+@import "_one_keyframe.scss";
+@import "_seven_keyframe.scss";
 
 body {
     background-color: #8080802e;
@@ -10,12 +11,13 @@ body {
 .main_container {
     position: relative;
     width: 1300px;
-    height: 400px;
+    height: 500px;
     margin: auto;
     margin-top: 150px;
     border: 1px solid;
     text-align: center;
     background-color: grey;
+    text-align: center;
 
 }
 .card {
@@ -23,25 +25,25 @@ body {
     height: 150px;
     background: #2e2e40;
     display: inline-block;
-    z-index: 1;
+    z-index: 5;
     margin: 10px;
     position: absolute;
     bottom: 0px;
     color: white;
-    font-size: 1000%;
+    font-size: 900%;
     border: 3px solid white;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
   
 }
 .one {
     left: $leftPos;
-    animation: move 8s linear forwards paused infinite;
-
+    animation: moveOne 8s linear forwards paused infinite;
 }
 .two {
     width: 150px;
     height: 225px;
     left:  $leftPos + 120px;
+    // animation: move 8s linear forwards paused infinite;
 }
 .three {
     width: 200px;
@@ -70,6 +72,11 @@ body {
 }
 
 .main_container:hover .one, .main_container:focus .one {
+    
+    animation-play-state: running;
+            
+}
+.main_container:hover .two, .main_container:focus .two {
     
     animation-play-state: running;
             
