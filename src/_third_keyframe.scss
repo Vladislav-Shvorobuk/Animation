@@ -1,9 +1,4 @@
 @keyframes moveThird {
-    0% {
-        bottom: 0px;
-        transform: translate(0px) scale(1);
-        z-index: 100;     
-    }
     
     0% {
         z-index: 100; 
@@ -13,17 +8,17 @@
     }
     15% {
         bottom: 0px;
-        transform: translate(215px) scale(1);
+        transform: translate(210px) scale(1);
     }
     30% {
         bottom: 0px;
-        transform: translate(450px) scale(1);
+        transform: translate(420px) scale(1);
     }
-     45% {
+    45% {
         bottom: -38px;
         transform: translate(605px) scale(0.75);
     }
-     60% {
+    60% {
         z-index: 1;
         bottom: -75px;
         transform: translate(750px) scale(0.50);
@@ -41,40 +36,5 @@
         bottom: 0px;
         transform: translate(0px) scale(1);
     }
-
-    // 30% {
-    //     bottom: 0px;
-    //     transform: translate(415px) scale(1);
-    // }
-    // 45% {
-    //     bottom: -38px;
-    //     transform: translate(605px) scale(0.75);
-    // }
-    // 60% {
-    //     z-index: 1;
-    //     bottom: -75px;
-    //     transform: translate(750px) scale(0.50);
-    // }
-    // 60% {
-    //     bottom: -37px;
-    //     transform: translate(945px) scale(0.666);
-    // }
-
-    // 68% {
-    //     z-index: 1; 
-    //     bottom: -37px;
-    //     transform: translate(-145px) scale(0.666);
-    // }
-    // 70% {
-    //     z-index: 100;   
-    //     bottom: -37px;
-    //     transform: translate(-145px) scale(0.666);
-    // }
-    // 100% {
-    //     z-index: 1;
-    //     bottom: -75px;
-    //     transform: translate(750px) scale(0.50);
-    // }
-  
 
 }

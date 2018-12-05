@@ -4,6 +4,7 @@ $leftPos: 0px;
 @import "_one_keyframe.scss";
 @import "_second_keyframe.scss";
 @import "_third_keyframe.scss";
+@import "_fourth_keyframe.scss";
 @import "_seven_keyframe.scss";
 
 body {
@@ -55,6 +56,7 @@ body {
     width: 200px;
     height: 300px;
     left:  $leftPos + 500px;
+    animation: moveFourth 8s linear forwards paused infinite;
 }
 .fifth {
     width: 200px;
@@ -80,6 +82,10 @@ body {
     animation-play-state: running;          
 }
 .main_container:hover .third, .main_container:focus .third {
+    
+    animation-play-state: running;          
+}
+.main_container:hover .fourth, .main_container:focus .fourth {
     
     animation-play-state: running;          
 }
