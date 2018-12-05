@@ -1,38 +1,38 @@
 @keyframes moveSeven {
     0% {
+       z-index: 1;
        bottom: 0px;
        transform: translate(0px);     
     }
-    15% {
-
+    8% {
+       z-index: 100;
        bottom: 0px;
-       transform: translate(-1090px);
-          
+       transform: translate(-1090px);     
     }
-    30% {
-        z-index: 100;  
+    10% {
+       z-index: 100;
+       bottom: 0px;
+       transform: translate(-1090px);     
+    }
+    25% {
         bottom: 37px;
         transform: translate(-945px) scale(1.5);
     }
-    45% {
+    40% {
         bottom: 75px;
         transform: translate(-750px) scale(2);
     }
-    60% {
+    55% {
         bottom: 75px;
         transform: translate(-540px) scale(2);
     }
-    75% {
+    70% {
         bottom: 75px;
         transform: translate(-330px) scale(2);
     }
-    90% {
+    85% {
         bottom: 37px;
         transform: translate(-145px) scale(1.5);
-    }
-    98% { 
-        bottom: 0px;
-        transform: translate( 0px) scale(1);
     }
     100% {
         bottom: 0px;

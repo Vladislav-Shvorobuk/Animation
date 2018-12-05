@@ -1,0 +1,43 @@
+@keyframes moveSixth {
+    
+    0% {
+        bottom: 0px; 
+        transform: translate(0px) scale(1);
+    }     
+    15% {
+        z-index: 1;
+        bottom: -37px;
+        transform: translate(145px) scale(0.66);
+    }
+    23% {
+        z-index: 100;
+        bottom: -37px;
+        transform: translate(-945px) scale(0.66);
+    }
+    25% {
+        z-index: 100;
+        bottom: -37px;
+        transform: translate(-945px) scale(0.66);
+    }
+    40% {
+        bottom: 0px;
+        transform: translate(-800px) scale(1);
+    }
+    55% {
+        bottom: 37px;
+        transform: translate(-605px) scale(1.334);
+    }
+    70% {
+        bottom: 37px;
+        transform: translate(-395px) scale(1.334);
+    }
+    85% {
+        bottom: 37px;
+        transform: translate(-185px) scale(1.334);
+    }
+    100% {
+        bottom: 0px;
+        transform: translate(0px) scale(1);
+    }
+
+}

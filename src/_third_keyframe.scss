@@ -1,7 +1,6 @@
 @keyframes moveThird {
     
     0% {
-        z-index: 100; 
         bottom: 0px;
         transform: translate(0px) scale(1);
      
@@ -22,6 +21,11 @@
         z-index: 1;
         bottom: -75px;
         transform: translate(750px) scale(0.50);
+    }
+    68% {
+        z-index: 100;
+        bottom: -75px;
+        transform: translate(-340px) scale(0.50);
     }
     70% {
         z-index: 100;

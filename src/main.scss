@@ -5,6 +5,8 @@ $leftPos: 0px;
 @import "_second_keyframe.scss";
 @import "_third_keyframe.scss";
 @import "_fourth_keyframe.scss";
+@import "_fifth_keyframe.scss";
+@import "_sixth_keyframe.scss";
 @import "_seven_keyframe.scss";
 
 body {
@@ -34,6 +36,7 @@ body {
     border: 3px solid white;
     line-height: 100%;
     text-align: center;
+    z-index: 100;
   
 }
 .first {
@@ -62,11 +65,13 @@ body {
     width: 200px;
     height: 300px;
     left:  $leftPos + 710px;
+    animation: moveFifth 8s linear forwards paused infinite;
 }
 .sixth {
     width: 150px;
     height: 225px;
     left:  $leftPos + 920px;
+    animation: moveSixth 8s linear forwards paused infinite;
 }
 .seventh {
     left:  $leftPos + 1090px;
@@ -86,6 +91,14 @@ body {
     animation-play-state: running;          
 }
 .main_container:hover .fourth, .main_container:focus .fourth {
+    
+    animation-play-state: running;          
+}
+.main_container:hover .fifth, .main_container:focus .fifth {
+    
+    animation-play-state: running;          
+}
+.main_container:hover .sixth, .main_container:focus .sixth {
     
     animation-play-state: running;          
 }
