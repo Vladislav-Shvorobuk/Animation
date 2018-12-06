@@ -45,7 +45,8 @@ body {
     background-image: url("/images/Arbok.png");
     background-size: 100% 100%;
     background-position: center;
-    animation: moveFirst 8s linear forwards paused infinite;
+    animation: moveFirst 8s linear forwards running infinite;
+   
 }
 .second {
     width: 150px;
@@ -54,7 +55,7 @@ body {
     background-image: url("/images/Blastoise.png");
     background-size: 100% 100%;
     background-position: center;
-    animation: moveSecond 8s linear forwards paused infinite;
+    animation: moveSecond 8s linear forwards running infinite;
 }
 .third {
     width: 200px;
@@ -63,7 +64,7 @@ body {
     background-image: url("/images/Charizard.png");
     background-size: 100% 100%;
     background-position: center;
-    animation: moveThird 8s linear forwards paused infinite;
+    animation: moveThird 8s linear forwards running infinite;
 }
 .fourth {
     width: 200px;
@@ -72,7 +73,7 @@ body {
     background-image: url("/images/Pidgeotto.png");
     background-size: 100% 100%;
     background-position: center;
-    animation: moveFourth 8s linear forwards paused infinite;
+    animation: moveFourth 8s linear forwards running infinite;
 }
 .fifth {
     width: 200px;
@@ -81,7 +82,7 @@ body {
     background-image: url("/images/Psyduck.png");
     background-size: 100% 100%;
     background-position: center;
-    animation: moveFifth 8s linear forwards paused infinite;
+    animation: moveFifth 8s linear forwards running infinite;
 }
 .sixth {
     width: 150px;
@@ -90,44 +91,21 @@ body {
     background-image: url("/images/Rhyhorn.png");
     background-size: 100% 100%;
     background-position: center;
-    animation: moveSixth 8s linear forwards paused infinite;
+    animation: moveSixth 8s linear forwards running infinite;
 }
 .seventh {
     left:  $leftPos + 1090px;
     background-image: url("/images/Venusaur.png");
     background-size: 100% 100%;
     background-position: center;
-    animation: moveSeven 8s linear forwards paused infinite;
+    animation: moveSeven 8s linear forwards running infinite;
 }
 
-.main_container:hover .first, .main_container:focus .first {
+.main_container:hover .card, .main_container:focus .card {
     
-    animation-play-state: running;          
+    animation-play-state: paused;          
 }
-.main_container:hover .second, .main_container:focus .second {
-    
-    animation-play-state: running;          
-}
-.main_container:hover .third, .main_container:focus .third {
-    
-    animation-play-state: running;          
-}
-.main_container:hover .fourth, .main_container:focus .fourth {
-    
-    animation-play-state: running;          
-}
-.main_container:hover .fifth, .main_container:focus .fifth {
-    
-    animation-play-state: running;          
-}
-.main_container:hover .sixth, .main_container:focus .sixth {
-    
-    animation-play-state: running;          
-}
-.main_container:hover .seventh, .main_container:focus .seventh {
-    
-    animation-play-state: running;           
-}
+
 
 
 
