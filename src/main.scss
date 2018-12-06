@@ -22,7 +22,6 @@ body {
     border: 1px solid;
     background-color: rgb(153, 153, 153);
 
-
 }
 .card {
     width: 100px;
@@ -30,51 +29,71 @@ body {
     background: #2e2e40;
     margin: 20px;
     color: white;
-    font-size: 85px;
+    // font-size: 85px;
     position: absolute;
     bottom: 0px;
     border: 3px solid white;
     line-height: 100%;
     text-align: center;
     z-index: 100;
-  
 }
 .first {
     left: $leftPos;
+    background-image: url("/images/Arbok.png");
+    background-size: 100% 100%;
+    background-position: center;
     animation: moveFirst 8s linear forwards paused infinite;
 }
 .second {
     width: 150px;
     height: 225px;
     left:  $leftPos + 120px;
+    background-image: url("/images/Blastoise.png");
+    background-size: 100% 100%;
+    background-position: center;
     animation: moveSecond 8s linear forwards paused infinite;
 }
 .third {
     width: 200px;
     height: 300px;
     left:  $leftPos + 290px;
+    background-image: url("/images/Charizard.png");
+    background-size: 100% 100%;
+    background-position: center;
     animation: moveThird 8s linear forwards paused infinite;
 }
 .fourth {
     width: 200px;
     height: 300px;
     left:  $leftPos + 500px;
+    background-image: url("/images/Pidgeotto.png");
+    background-size: 100% 100%;
+    background-position: center;
     animation: moveFourth 8s linear forwards paused infinite;
 }
 .fifth {
     width: 200px;
     height: 300px;
     left:  $leftPos + 710px;
+    background-image: url("/images/Psyduck.png");
+    background-size: 100% 100%;
+    background-position: center;
     animation: moveFifth 8s linear forwards paused infinite;
 }
 .sixth {
     width: 150px;
     height: 225px;
     left:  $leftPos + 920px;
+    background-image: url("/images/Rhyhorn.png");
+    background-size: 100% 100%;
+    background-position: center;
     animation: moveSixth 8s linear forwards paused infinite;
 }
 .seventh {
     left:  $leftPos + 1090px;
+    background-image: url("/images/Venusaur.png");
+    background-size: 100% 100%;
+    background-position: center;
     animation: moveSeven 8s linear forwards paused infinite;
 }
 
