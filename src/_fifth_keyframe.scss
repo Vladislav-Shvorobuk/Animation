@@ -4,38 +4,35 @@
         bottom: 0px; 
         transform: translate(0px) scale(1);
     }
-    15% {
+    14.285% {
         bottom: -38px;
         transform: translate(185px) scale(0.75);
     }     
-    30% {
-        z-index: 1;
+    28.57% {
+
         bottom: -75px;
         transform: translate(330px) scale(0.50);
-    }
-    38% {
-        z-index: 100;
+    }   
+    42.855% {
+      
         bottom: -75px;
         transform: translate(-760px) scale(0.50);
     }
-    40% {
+    57.14%  {
         z-index: 100;
-        bottom: -75px;
-        transform: translate(-760px) scale(0.50);
-    }
-    55% {
         bottom: -38px;
         transform: translate(-615px) scale(0.75);
     }
-    70% {
+    71.425% {
+        z-index: 1;
         bottom: 0px;
         transform: translate(-420px) scale(1);
     }
-    85% {
+    85.71%  {
         bottom: 0px;
         transform: translate(-210px) scale(1);
     }
-    100% {
+    99.995% {
         bottom: 0px;
         transform: translate(0px) scale(1);
     }

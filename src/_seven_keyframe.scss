@@ -1,40 +1,35 @@
 @keyframes moveSeven {
     0% {
-       z-index: 1;
        bottom: 0px;
        transform: translate(0px);     
     }
-    8% {
-       z-index: 100;
+    14.285% {
+        z-index: 1;
        bottom: 0px;
        transform: translate(-1090px);     
     }
-    10% {
-       z-index: 100;
-       bottom: 0px;
-       transform: translate(-1090px);     
-    }
-    25% {
+    28.57% {
+        z-index: 100;
         bottom: 37px;
         transform: translate(-945px) scale(1.5);
     }
-    40% {
+    42.855% {
         bottom: 75px;
         transform: translate(-750px) scale(2);
     }
-    55% {
+    57.14%  {
         bottom: 75px;
         transform: translate(-540px) scale(2);
     }
-    70% {
+    71.425% {
         bottom: 75px;
         transform: translate(-330px) scale(2);
     }
-    85% {
+    85.71%  {
         bottom: 37px;
         transform: translate(-145px) scale(1.5);
     }
-    100% {
+    99.995% {
         bottom: 0px;
         transform: translate(0px) scale(1);
     }

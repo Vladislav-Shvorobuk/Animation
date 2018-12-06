@@ -5,40 +5,35 @@
         transform: translate(0px) scale(1);
      
     }
-    15% {
+    14.285% {
         bottom: 0px;
         transform: translate(210px) scale(1);
     }
   
-    30% {
+    28.57% {
         bottom: -38px;
         transform: translate(395px) scale(0.75);
     }
      
-    45% {
+    42.855% {
         bottom: -75px;
         transform: translate(540px) scale(0.50);
     }
-    53% {
+    57.14%  {
         z-index: 1;
         bottom: -75px;
         transform: translate(-550px) scale(0.50);
     }
-    55% {
-        z-index: 1;
-        bottom: -75px;
-        transform: translate(-550px) scale(0.50);
-    }
-    70% {
+    71.425% {
         z-index: 100;
         bottom: -38px;
         transform: translate(-405px) scale(0.75);
     }
-    85% {
+    85.71%  {
         bottom: 0px;
         transform: translate(-210px) scale(1);
     }
-    100% {
+    99.995% {
         bottom: 0px;
         transform: translate(0px) scale(1);
     }

@@ -5,38 +5,33 @@
         transform: translate(0px) scale(1);
      
     }
-    15% {
+    14.285% {
         bottom: 0px;
         transform: translate(210px) scale(1);
     }
-    30% {
+    28.57% {
         bottom: 0px;
         transform: translate(420px) scale(1);
     }
-    45% {
+    42.855% {
         bottom: -38px;
         transform: translate(605px) scale(0.75);
     }
-    60% {
-        z-index: 1;
+    57.14%  {
         bottom: -75px;
         transform: translate(750px) scale(0.50);
     }
-    68% {
-        z-index: 100;
+    71.425% {
+        z-index: 1;
         bottom: -75px;
         transform: translate(-340px) scale(0.50);
     }
-    70% {
+    85.71% {
         z-index: 100;
-        bottom: -75px;
-        transform: translate(-340px) scale(0.50);
-    }
-    85% {
         bottom: -38px;
         transform: translate(-195px) scale(0.75);
     }
-    100% {
+    99.995% {
         bottom: 0px;
         transform: translate(0px) scale(1);
     }
