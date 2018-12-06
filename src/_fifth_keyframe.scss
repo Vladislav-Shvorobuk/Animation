@@ -14,7 +14,7 @@
         transform: translate(330px) scale(0.50);
     }   
     42.855% {
-      
+        z-index: 1;
         bottom: -75px;
         transform: translate(-760px) scale(0.50);
     }
@@ -24,7 +24,6 @@
         transform: translate(-615px) scale(0.75);
     }
     71.425% {
-        z-index: 1;
         bottom: 0px;
         transform: translate(-420px) scale(1);
     }

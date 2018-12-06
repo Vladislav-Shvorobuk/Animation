@@ -26,11 +26,12 @@
         transform: translate(945px) scale(0.666);
     }
     85.71% {
-        z-index: 100;   
+        z-index: 1;
         bottom: -37px;
         transform: translate(-145px) scale(0.666);
     }
     99.995% {
+        z-index: 100;
         bottom: 0px;
         transform: translate(0px) scale(1);     
     }
